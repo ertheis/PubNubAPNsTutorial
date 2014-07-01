@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        var myConfig = PNConfiguration(forOrigin: "pubsub.pubnub.com", publishKey: "pub-c-907eb083-dee8-48e1-b302-5598f6b88b5d", subscribeKey: "sub-c-3cb3aeae-fe42-11e3-b60a-02ee2ddab7fe", secretKey: nil)
+        var myConfig = PNConfiguration(forOrigin: "pubsub.pubnub.com", publishKey: "insert-your-pub-key", subscribeKey: "insert-your-sub-key", secretKey: nil)
         
         PubNub.setConfiguration(myConfig)
         
